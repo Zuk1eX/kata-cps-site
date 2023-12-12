@@ -112,22 +112,22 @@ button {
 }
 
 .nav-button--type--menu {
-  background-image: url("/images/burger-menu.svg");
+  background-image: url("images/burger-menu.svg");
 }
 .nav-button--type--repair {
-  background-image: url("/images/repair.svg");
+  background-image: url("images/repair.svg");
 }
 .nav-button--type--status {
-  background-image: url("/images/check-status.svg");
+  background-image: url("images/check-status.svg");
 }
 .nav-button--type--call {
-  background-image: url("/images/call-back.svg");
+  background-image: url("images/call-back.svg");
 }
 .nav-button--type--message {
-  background-image: url("/images/message.svg");
+  background-image: url("images/message.svg");
 }
 .nav-button--type--profile {
-  background-image: url("/images/profile.svg");
+  background-image: url("images/profile.svg");
 }
 
 .nav-button__image {
