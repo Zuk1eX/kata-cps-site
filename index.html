@@ -11,8 +11,13 @@
       name="description"
       content="Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя."
     />
+    <link rel="shortcut icon" href="images/logo.svg" type="image/svg" />
     <title>Сервисный центр CPS</title>
     <link rel="stylesheet" href="fonts/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="page">
@@ -243,7 +248,7 @@
                   близким.
                 </p>
               </div>
-              <button type="button" class="content__more-btn">
+              <button type="button" class="more-button content__more-btn">
                 Читать далее
               </button>
             </div>
@@ -255,8 +260,149 @@
           </div>
         </div>
       </section>
+      <section class="brands">
+        <h2 class="subtitle brands__title">Ремонт техники различных брендов</h2>
+        <div class="container">
+          <div class="brands-cards swiper">
+            <ul class="brands-cards__list swiper-wrapper">
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/lenovo.png"
+                  alt="Lenovo"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Lenovo"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/samsung.png"
+                  alt="Samsung"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Samsung"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/apple.png"
+                  alt="Apple"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Apple"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/bosch.png"
+                  alt="Bosch"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Bosch"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/hp.png"
+                  alt="HP"
+                  class="brand-card__image"
+                />
+                <a href="#" class="link-button brand-card__link" title="HP"></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/acer.png"
+                  alt="Acer"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Acer"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/viewsonic.png"
+                  alt="ViewSonic"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="ViewSonic"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/sony.png"
+                  alt="Sony"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Sony"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/lenovo.png"
+                  alt="Lenovo"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Lenovo"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/samsung.png"
+                  alt="Samsung"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Samsung"
+                ></a>
+              </li>
+              <li class="brand-card brands-cards__item swiper-slide">
+                <img
+                  src="images/brands/apple.png"
+                  alt="Apple"
+                  class="brand-card__image"
+                />
+                <a
+                  href="#"
+                  class="link-button brand-card__link"
+                  title="Apple"
+                ></a>
+              </li>
+            </ul>
+            <div class="brands-cards__pagination swiper-pagination"></div>
+            <button type="button" class="more-button brands__more-btn">
+              Показать все
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
